@@ -40,4 +40,5 @@ data is split into a training set and a test set. You can look up training and t
 toydata2.json with \['train'\] and \['test'\] respectively.
 
 • mnist subset: MNIST is one of the most well-known datasets in computer vision, consisting
-of images of handwritten digits from 0 to 9
+of images of handwritten digits from 0 to 9. We will be working with a subset of the official version of MNIST. In particular, we randomly sample 700 images from each category and split them into training, validation, and test sets, which can be reached in mnist subset.json via
+keys \['train'\], \['valid'\] and \['test'\] respectively.
